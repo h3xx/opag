@@ -1,3 +1,9 @@
+2008-04-20  Martin Dickopp  <martin@zero-based.org>
+
+	* src/opag.h: Fix gcc_attr_nonnull on output_code.
+	* Update postal address of FSF in file headers.
+	* Version 0.8.1.
+
 2005-05-08  Martin Dickopp  <martin@zero-based.org>
 
 	* opag.1.in: Document preprocessor directives in the definition

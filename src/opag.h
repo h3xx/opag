@@ -1,5 +1,5 @@
 /* This file is part of opag, an option parser generator.
-   Copyright (C) 2003, 2005 Martin Dickopp
+   Copyright (C) 2003, 2005, 2008 Martin Dickopp
 
    This program is free software; you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
@@ -13,8 +13,8 @@
 
    You should have received a copy of the GNU General Public License
    along with this program; if not, write to the Free Software
-   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307,
-   USA.  */
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+   MA 02110-1301, USA.  */
 
 #ifndef HDR_OPAG
 #define HDR_OPAG 1
@@ -67,7 +67,7 @@ extern void parse_file (const char *infilename, char *buffer, char *buffer_end,
 
 /* Create header and code file.  */
 extern void output_code (const char *cfilename, const char *hfilename,
-                         const struct parsed_infile *pf) gcc_attr_nonnull (());
+                         const struct parsed_infile *pf) gcc_attr_nonnull ((3));
 
 
 #endif

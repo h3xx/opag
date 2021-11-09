@@ -1,5 +1,5 @@
 .\" This file is part of opag, an option parser generator.
-.\" Copyright (C) 2003, 2004, 2005 Martin Dickopp
+.\" Copyright (C) 2003, 2004, 2005, 2008 Martin Dickopp
 .
 .\" This Program is free software; you can redistribute it and/or modify
 .\" it under the terms of the GNU General Public License as published
@@ -13,10 +13,10 @@
 .
 .\" You should have received a copy of the GNU General Public License
 .\" along with this program; if not, write to the Free Software
-.\" Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307,
-.\" USA.
+.\" Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+.\" MA 02110-1301, USA.
 .
-.TH OPAG 1 08-May-2005 "@PACKAGE_STRING@" "User Commands"
+.TH OPAG 1 20-Apr-2008 "@PACKAGE_STRING@" "User Commands"
 .SH NAME
 opag \- option parser generator
 .SH SYNOPSIS
@@ -750,7 +750,7 @@ int main (int argc, char *argv [])
 .SH BUGS
 Please report bugs to <martin@zero\-based.org>.
 .SH COPYRIGHT
-Copyright \(co 2002, 2003, 2004, 2005 Martin Dickopp
+Copyright \(co 2002, 2003, 2004, 2005, 2008 Martin Dickopp
 .PP
 Opag is free software; it may be copied and/or modified under the terms
 of the GNU General Public License version 2 or (at your option) any

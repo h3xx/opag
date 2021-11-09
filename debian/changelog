@@ -1,3 +1,16 @@
+opag (0.8.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Martin Dickopp <martin@zero-based.org>  Sun, 20 Apr 2008 13:26:27 +0200
+
+opag (0.8.0-2) unstable; urgency=low
+
+  * debian/control: update 'Standards-Version' to 3.6.2. No changes to the
+    package necessary.
+
+ -- Martin Dickopp <martin@zero-based.org>  Fri,  1 Jul 2005 15:44:05 +0200
+
 opag (0.8.0-1) unstable; urgency=low
 
   * New upstream release.
