@@ -1,4 +1,4 @@
-/* This file has been generated with opag 0.8.0.  */
+/* This file has been generated with opag 0.8.1.  */
 
 #ifndef HDR_OPTIONS
 #define HDR_OPTIONS 1

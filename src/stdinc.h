@@ -13,8 +13,8 @@
 
    You should have received a copy of the GNU General Public License
    along with this program; if not, write to the Free Software
-   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307,
-   USA.  */
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+   MA 02110-1301, USA.  */
 
 #ifndef HDR_STDINC
 #define HDR_STDINC 1
@@ -60,9 +60,11 @@
 #if __GNUC__ > 2 || (__GNUC__ == 2 && __GNUC_MINOR__ >= 96)
 # define gcc_attr_malloc __attribute__ ((malloc))
 # define gcc_attr_pure   __attribute__ ((pure))
+# define gcc_attr_unused __attribute__ ((unused))
 #else
 # define gcc_attr_malloc
 # define gcc_attr_pure
+# define gcc_attr_unused
 #endif
 #if __GNUC__ > 3 || (__GNUC__ == 3 && __GNUC_MINOR__ >= 3)
 # define gcc_attr_nonnull(x) __attribute__ ((nonnull x))

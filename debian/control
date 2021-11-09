@@ -3,7 +3,7 @@ Section: devel
 Priority: optional
 Maintainer: Martin Dickopp <martin@zero-based.org>
 Build-Depends: cdbs, debhelper (>= 4.1.0)
-Standards-Version: 3.6.1
+Standards-Version: 3.6.2
 
 Package: opag
 Architecture: any

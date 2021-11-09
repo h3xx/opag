@@ -1,3 +1,7 @@
+Version 0.8.1:
+* A wrong optimization hint has been corrected. This fixes a crash if no
+  header or code output file has been specified.
+
 Version 0.8.0:
 * The preprocessing directives #if, #ifdef and #endif can be used in the
   definition section of the input file. They are put around the parsing
